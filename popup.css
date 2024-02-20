@@ -1,0 +1,104 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        background-color: #f0f0f0;
+    }
+    
+    .container {
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+    
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4285f4;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+        background-color: #357ae8;
+    } */
+    
+    .container {
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        /* justify-content: flex-start; */
+    }
+    
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    
+    .logo-text {
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #4b4b4b; 
+    }
+     
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1da892;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1a917f;
+  }
+
+  .logo-container-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoNote {
+    width: 100px;
+    height: auto;
+}
+  
