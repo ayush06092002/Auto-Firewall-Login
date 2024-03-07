@@ -36,6 +36,17 @@ function showSavedMessage() {
   }, 3000); // Clear the message after 3 seconds
 }
 
+function showLogoutMessage() {
+  const messageContainer = document.getElementById("message");
+  messageContainer.textContent = "Logged out!";
+  messageContainer.classList.add("saved-message");
+
+  setTimeout(function() {
+    messageContainer.textContent = "";
+    messageContainer.classList.remove("saved-message");
+  }, 3000); // Clear the message after 3 seconds
+}
+
 
 
 

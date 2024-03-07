@@ -101,4 +101,14 @@ body {
     width: 100px;
     height: auto;
 }
-  
+
+#logoutButton{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
