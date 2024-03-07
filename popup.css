@@ -112,3 +112,16 @@ body {
     transition: background-color 0.3s ease;
     border: none;
 }
+
+#message {
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  #message.logout-message {
+    opacity: 2;
+  }
